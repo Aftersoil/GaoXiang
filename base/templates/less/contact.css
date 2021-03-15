@@ -1,0 +1,39 @@
+#page section .car_sel {
+  height: 702px;
+  background: url(http://y2.hy755.cn/9017/advance/pics/20170922/1506067846.jpg) no-repeat;
+  background-size: cover;
+}
+#page section .container {
+  width: 1250px;
+  height: 730px;
+  margin: 0 auto;
+}
+#page section .container .bread_crumbs {
+  line-height: 35px;
+}
+#page section .container p {
+  text-align: center;
+}
+#page section .container p span {
+  font-size: 36px;
+  color: #505050;
+  font-family: 'Times New Roman';
+}
+#page section .container p b {
+  font-size: 30px;
+  line-height: 42px;
+  color: #5c4038;
+}
+#page section .container .gd_api {
+  width: 100%;
+  height: 350px;
+}
+#page section .container .detail span {
+  font-size: 14px;
+  line-height: 23px;
+}
+#page section .container .detail span strong {
+  color: #333;
+  font-family: SimSun;
+  font-size: 18px;
+}

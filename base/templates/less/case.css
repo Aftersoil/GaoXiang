@@ -1,0 +1,82 @@
+#page section .car_sel {
+  height: 702px;
+  background: url(http://y2.hy755.cn/9017/advance/pics/20170922/1506067846.jpg) no-repeat;
+  background-size: cover;
+}
+#page section .container {
+  width: 1250px;
+  height: 700px;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+}
+#page section .container .bg_top {
+  width: 100%;
+  height: 15px;
+  background-image: url('../../../assets/t.png');
+  background-size: 100%;
+  border: 1px solid #000;
+}
+#page section .container .bread_crumbs {
+  line-height: 35px;
+  border: 1px solid #000;
+}
+#page section .container .content {
+  border: 1px solid #000;
+  display: flex;
+  height: 650px;
+  overflow: hidden;
+}
+#page section .container .content .cont_l {
+  flex: 0.2;
+  border: 1px solid #000;
+}
+#page section .container .content .cont_l .hd {
+  background-color: #c5a47c;
+  width: 100%;
+  height: 120px;
+  color: #fff;
+  position: relative;
+}
+#page section .container .content .cont_l .hd .t1,
+#page section .container .content .cont_l .hd .t2 {
+  position: absolute;
+  left: 30px;
+}
+#page section .container .content .cont_l .hd .t1 {
+  display: block;
+  line-height: 50px;
+  font-family: arial;
+  font-size: 28px;
+  top: 20px;
+}
+#page section .container .content .cont_l .hd .t2 {
+  font-size: 16px;
+  top: 62px;
+}
+#page section .container .content .cont_l ul li {
+  width: 100%;
+  height: 45px;
+  margin-top: 4px;
+  text-align: center;
+  background-color: #000;
+}
+#page section .container .content .cont_l ul li span {
+  display: none;
+}
+#page section .container .content .cont_l ul li a {
+  line-height: 45px;
+  color: #fff;
+  text-decoration: none;
+}
+#page section .container .content .cont_r {
+  flex: 1;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+#page section .container .content .cont_r .fang {
+  width: 220px;
+  height: 220px;
+  border: 1px solid #000;
+  float: left;
+  margin: 0 15px 15px 15px;
+}
