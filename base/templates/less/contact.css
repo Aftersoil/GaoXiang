@@ -24,9 +24,8 @@
   line-height: 42px;
   color: #5c4038;
 }
-#page section .container .gd_api {
-  width: 100%;
-  height: 350px;
+#page section .container #container {
+  margin-bottom: 10px;
 }
 #page section .container .detail span {
   font-size: 14px;

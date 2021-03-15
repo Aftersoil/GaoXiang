@@ -35,7 +35,7 @@ ul, li { list-style: none; }
 }
 .shutter-btn li {
   position: absolute;
-  z-index: 2;
+  z-index: 9999;
   top: 50%;
   width: 49px;
   height: 49px;
@@ -44,11 +44,11 @@ ul, li { list-style: none; }
 }
 .shutter-btn li.prev {
   left: 20px;
-  background: url(https://www.jq22.com/demo/jQueryShutter201708061919/images/shutter_prevBtn.png) no-repeat 0 -49px;
+  background: url('../../../assets/shutter_prevBtn.png') no-repeat 0 -49px;
 }
 .shutter-btn li.next {
   right: 20px;
-  background: url(https://www.jq22.com/demo/jQueryShutter201708061919/images/shutter_nextBtn.png) no-repeat 0 -49px;
+  background: url('../../../assets/shutter_nextBtn.png') no-repeat 0 -49px;
 }
 .shutter-desc {
   position: absolute;
@@ -64,4 +64,23 @@ ul, li { list-style: none; }
   line-height: 36px;
   color: #fff;
   font-size: 14px;
+}
+.shutter .sub_tit{
+  position: absolute;
+  text-align: center;
+  top: 324px;
+  left: 460px;
+  z-index: 999;
+}
+
+.shutter .sub_tit strong{
+  font-family: 'Microsoft YaHei';
+  color: #000;
+  font-size: 52px;
+  line-height: 1.5;
+}
+.shutter .sub_tit p span{
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
 }
