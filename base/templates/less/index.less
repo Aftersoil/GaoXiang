@@ -1,0 +1,228 @@
+#page {
+ 
+
+
+  // 内容主体
+  section {
+    .container{
+      width: 1250px;
+      margin: 0 auto;
+      // background-color: blanchedalmond;
+    }
+  }
+  // 轮播图 
+  .car_sel{
+    height: 702px;
+    background: url(http://y2.hy755.cn/9017/advance/pics/20170922/1506067846.jpg) no-repeat;
+    background-size: cover;
+  }
+  section{
+    overflow: hidden;
+    .container{      
+      // 关于我们
+      // bt title
+      .cont_reserve_bg,.cont_about_bg{
+        width: 332px;
+        height: 67px;
+        margin: 10px auto;
+      }
+      .cont_about_bg{
+        background: url('../../../assets/abust.png');     
+      }
+      .cont_about{
+        width: 100%;  
+        display: flex;
+        padding-bottom: 80px;
+      
+        // 左侧编写
+        .cont_about_l{
+      
+          flex: 1.3;
+          padding: 5px;
+          p{
+            span{
+              font-family: 'Microsoft YaHei';
+              line-height: 2.5;
+              color: #666666;
+              strong{
+                font-family: 'Microsoft YaHei';
+                line-height: 2.5;
+                font-size: 18px;
+                color: #666666;
+              }
+            }
+          }
+        }
+        // 中间
+        .cont_cent{
+          flex: 1;
+          p{
+            width: 100%;
+            b {
+              font-size: 18px;
+              line-height: 45px;
+              padding-left: 150px;
+            }
+          }
+          div{
+            display: flex;
+            div{
+              flex: 1;
+              img{
+                padding: 20px 0 0 20px;
+              }
+            }
+            .con{
+              flex: 1.7;
+              flex-direction: column;
+              height: 94px;
+              padding: 5px;
+              p{ 
+                font-family: 'Microsoft YaHei';
+                font-size: 14px;
+                line-height: 1;
+                color: #C5A47E;
+              }
+              span{   
+                display: block;           
+                color: #000;
+              }
+            }
+          }
+          
+
+        }
+        .cont_about_r{
+          flex: .9;
+          img{
+            margin:25px;
+          }
+        }
+       
+      }
+      .more{
+        background: url('../../../assets/more.png');
+        margin: 0 auto;
+        width: 220px;
+        height: 73px;
+      }
+
+      // 展示区域
+      .cont_reserve_bg{
+        background: url('../../../assets/al.jpg');     
+      }
+      ul{
+        margin-left: 50px;
+        overflow: hidden;
+      }
+      ul li{
+        width: 362px;
+        height: 343px;
+        border: 1px solid #000;
+        float: left;
+        margin: 10px;
+        img{
+         padding: 25px;
+        }
+       
+      }
+
+
+      // 热点资讯
+      .cont_about_bg{
+        background: url('../../../assets/rdzx.png');    
+      }
+      .host_news{
+        display: flex;
+        width: 100%;
+        height: 500px;
+        padding-bottom: 50px;
+        margin:  0 auto;
+        .host_news_l{
+          flex: 1.9;
+          .news_hd{
+            width: 100%;
+            height: 88px;
+            a{
+              color: #555;
+              text-decoration: none;
+              font: bold 14px/16px Verdana, Arial, Helvetica, sans-serif;
+            }
+          }
+      
+
+          .host_news_item{
+            width: 100%;
+            height: 85px;
+            border: 0px;
+            border-bottom: 1px;
+            border-bottom-style: dotted;
+            display:flex;
+         
+
+            .time{
+              width: 60px;
+              height: 60px;
+              background-color: #000;
+              margin: 10px 30px 0 20px;
+              flex: -0.5;
+              color: #fff;  
+              .day{
+                padding: 8px;
+                width: 60px;
+                height: 40px;
+                font-size: 28px;
+                font-weight: bold;
+                color: #fff;
+                text-align: center;
+              }
+            }
+            .detial{
+              flex: 1;
+              padding-top: 10px;
+              a{
+                font-size: 16px;
+                text-decoration: none;
+                &:hover{
+                  color: #d3b167;
+                }
+              }
+              .memo{
+                color: #999999;
+                font-size: 12px;
+                padding-top: 3px;
+              }
+            }
+          }
+       
+        }
+        .host_news_r{
+          flex: 1;
+          .news_bg{
+            width: 263px;
+            height: 482px;
+            position: relative;
+            margin-left: 140px;
+            .add{
+              position: absolute;
+              width: 153px;
+              height: 74px;
+              background-image: url('../../../assets/add.png');
+              top: 323px;
+              left: -87px;
+            }
+          }
+        }
+      
+      }
+    
+
+
+    }
+  
+
+  }
+
+ 
+
+}

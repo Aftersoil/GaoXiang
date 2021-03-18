@@ -1,0 +1,171 @@
+#page{
+
+  // 内容主体
+  section {
+    // 轮播图 
+   .car_sel{
+     height: 702px;
+     background: url(http://y2.hy755.cn/9017/advance/pics/20170922/1506067846.jpg) no-repeat;
+     background-size: cover;
+   }
+
+
+   .container{
+     width: 1250px;
+     height: 700px;
+     margin: 0 auto;
+     display: flex;
+      // 左侧内容
+     .cont_l{
+       flex: .3;
+
+       .hd{
+        background-color: #c5a47c;
+        width: 100%;
+        height: 120px;
+        color: #fff;
+        position: relative;
+        .t1,.t2{
+          position: absolute;
+          left: 30px;
+        }
+        .t1{
+          display: block;
+          line-height: 50px;
+          font-family: arial;
+          font-size: 28px;
+          top:20px;
+
+        }
+        .t2{
+          font-size: 16px;
+          top:62px;
+
+        }
+       }
+
+
+       ul li{
+        width: 100%;
+        height: 45px;
+        margin-top: 4px;
+        text-align: center;
+        background-color: #000;
+         span{
+           display: none;
+         }
+         a{
+           line-height: 45px;
+           color: #fff;
+           text-decoration: none;
+         }
+       }
+     }
+
+
+
+     .cont_r{
+       flex: 1;
+       // 面包屑导航
+        .bread_crumbs{
+          line-height: 35px;
+          padding-left: 10px;
+        }
+        .bg_top{
+            width: 100%;
+            height: 15px;
+            background-image: url('../../../assets/t.png');
+            background-size: 100%;
+          }
+
+        // 内部两栏布局
+        .cont_inside{
+          width: 100%;
+          overflow: hidden;
+          display: flex;
+          padding-top: 30px;
+          // 中部 输入内容
+          .cont_ins_l{
+            flex: 1;
+            dl{
+              padding-left: 20px;
+            }
+            dt{
+              height: 30px;
+              font-size: 14px;
+              line-height: 30px;
+              color: #333;
+              padding-bottom: 3px;
+            }
+            dd{
+               padding: 0; margin: 0;
+              input{
+                background: #eee;
+                border: #aaa 1px dashed;
+                padding: 4px;
+                line-height: 24px;
+                width: 550px;
+              }
+              .submit{
+                  border: none;
+                  cursor: pointer;
+                  width: 200px;
+                  margin-top: 10px;
+                  height: 38px;
+                  line-height: 34px;
+                  color: #fff;
+                  font-size: 12px;
+                  background-color: #cf4557;
+              
+              }
+            }
+  
+
+          }
+
+          // 右侧图片
+          .cont_ins_r{
+            flex: .5;
+            position: relative;
+            .bg_inst{
+              width: 95%;
+              position: absolute;
+              top: 160px;
+              padding-left: 15px;
+
+            }
+            p{
+              span{
+                strong{
+                  line-height: 10px;
+                  font-size: 30px;
+                  color: #FFFFFF;
+                }
+              }
+            }
+            div{
+              span{
+                color: #FFFFFF;
+                font-size: 14px;
+                line-height: 25.2px;
+              }
+            }
+          }
+        }
+     }
+
+
+   }
+
+  
+ }
+
+}
+
+
+ 
+
+
+
+
+

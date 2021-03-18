@@ -1,0 +1,31 @@
+#page section .car_sel {
+  height: 702px;
+  background: url(http://y2.hy755.cn/9017/advance/pics/20170922/1506067846.jpg) no-repeat;
+  background-size: cover;
+}
+#page section .container {
+  width: 1250px;
+  height: 700px;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+  display: flex;
+}
+#page section .container .cont_l {
+  flex: 0.3;
+  border: 1px solid #000;
+}
+#page section .container .cont_r {
+  flex: 1;
+  border: 1px solid #000;
+}
+#page section .container .cont_r .bread_crumbs {
+  line-height: 35px;
+  border: 1px solid #000;
+}
+#page section .container .cont_r .bg_top {
+  width: 100%;
+  height: 15px;
+  background-image: url('../../../assets/t.png');
+  background-size: 100%;
+  border: 1px solid #000;
+}
